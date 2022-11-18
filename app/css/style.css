@@ -1,0 +1,15 @@
+@import "include/var.css";
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    color: var(--color);
+}
+.anim{
+    height: 500px;
+    width: 600px;
+    border: 1px solid #000;
+}
+@import "../../node_modules/slick-carousel/slick/slick.css";
+@import "../../node_modules/aos/dist/aos.css";
+@import "include/media.css";  
